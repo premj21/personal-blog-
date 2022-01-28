@@ -1,0 +1,327 @@
+/* navbar styles */
+#titlenav {
+  padding: 2rem 7rem;
+  color: #fff;
+  background-color: black;
+}
+#headers {
+  padding: 2rem 6rem;
+  /* color: #fff; */
+  background-color: black;
+}
+#personal {
+  padding: 1rem 6rem;
+  /* color: #fff; */
+  background-color: black;
+}
+#cards {
+  padding: 1rem 6rem;
+  color: #fff;
+  background-color: black;
+}
+
+.navbar-brand {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5rem;
+}
+.navbar-nav {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+.nav-item {
+  padding: 0 1rem;
+}
+.nav-link:hover {
+  color: #ff1f8f;
+}
+
+/* THE HEADING */
+.names {
+  font-family: "Manrope", sans-serif;
+  font-size: 5rem;
+  line-height: 1;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 8px 8px #ff1f8f, 20px 20px #000000;
+}
+
+/* the changing paragraph css */
+.pnames {
+  padding: 1rem 0rem;
+  color: darkgray;
+  font-family: "Roboto", sans-serif;
+}
+/* that contact button */
+.container {
+  padding: 1rem 0rem;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: #f4f4f4;
+  /* text-transform: uppercase; */
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #ee1d52;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover {
+  color: #fff;
+  box-shadow: 1px 1px 9px 3px #ff1f8f;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, #ff1f8f, transparent);
+  transition: all 600ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+
+
+/* that scroll button */
+
+body {
+  background: #000;
+}
+
+.arrows {
+  width: 60px;
+  height: 72px;
+  /* margin: 1rem 40rem; */
+  /* position: absolute; */
+  position: relative;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+}
+
+.arrows path {
+  stroke: #ff1f8f;
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+}
+
+/* the personal info page */
+#personal {
+  margin-top: 2rem;
+  background-color: #000;
+}
+
+.container-fluids {
+  padding: 0rem 10rem;
+}
+
+.h2about {
+  color: cyan;
+  font-family: "Manrope", sans-serif;
+  padding-top: 3rem;
+  font-size: 3.5rem;
+}
+.h2abouts {
+  color: #ff1f8f;
+  font-family: "Manrope", sans-serif;
+
+  font-size: 3.5rem;
+}
+.h3about {
+  /* color: #ff1f8f; */
+  font-family: "Manrope", sans-serif;
+}
+.parabout {
+  color: #fff;
+  padding-right: 4rem;
+  line-height: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+/* \title image */
+.title-img {
+  height: 20rem;
+}
+
+/* CARDS */
+/* PER CARD DIFFERENT CSS */
+/* same for all elements lmde */
+.card-title {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+}
+.card-title:hover {
+  color: #ee1d52;
+}
+.card-text {
+  color: darkgray;
+  font-family: "Roboto", sans-serif;
+}
+
+.hlines1 {
+  color: #ff198c;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+.card1 {
+  border-top: 3px solid #ff198c;
+}
+.hlines2 {
+  color: cyan;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+.card2 {
+  border-top: 3px solid cyan;
+}
+.hlines3 {
+  color: #ff198c;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+.card3 {
+  border-top: 3px solid #ff198c;
+}
+
+/* footers same as last */
+#footers {
+  background: black;
+}
+
+.footer {
+  /* background: #111; */
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.foot {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.footp {
+  max-width: 500px;
+  margin: 10 px auto;
+  line-height: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: black;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.fbottom {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 4;
+  font-weight: 200;
+}
+
+
+
+
+
+
+
+
+/* footers */
